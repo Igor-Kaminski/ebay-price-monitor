@@ -129,7 +129,7 @@ python run_bot.py
 7. **Saves full links of cheaper listings** to `logs/scraper_links.log`
 8. **Repeats asynchronously** every hour (if daemon mode enabled)
 
-## ⏱️ **Automation**
+## **Automation**
 
 ### **Option 1: Built-in Daemon (Recommended)**
 Enable the built-in daemon mode for continuous monitoring:
@@ -166,7 +166,7 @@ crontab -e
 
 
 
-## 📁 **Project Structure**
+## **Project Structure**
 
 ```
 Scraper/
@@ -187,7 +187,7 @@ Scraper/
 └── README.md              # This file
 ```
 
-## ⚙️ **Configuration**
+## **Configuration**
 
 ### **Product Settings**
 Each product in the `PRODUCTS` array has these settings:
@@ -218,13 +218,13 @@ Each product in the `PRODUCTS` array has these settings:
 
 
 
-## ⚠️ **Important Notes**
+## **Important Notes**
 
 - **Respect eBay's terms of service**
 - **Don't make requests too frequently**
 - **Use responsibly** 
 
-## 🐛 **Troubleshooting**
+## **Troubleshooting**
 
 ### **No listings found?**
 - Check if eBay is blocking your requests
@@ -249,11 +249,11 @@ Each product in the `PRODUCTS` array has these settings:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 **License**
+## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚖️ **Disclaimer**
+## **Disclaimer**
 
 This tool is for educational and legitimate business purposes only. Users are responsible for complying with eBay's terms of service and applicable laws. The developers are not responsible for any misuse of this software.
 
