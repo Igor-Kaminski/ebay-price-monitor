@@ -36,7 +36,7 @@ A Python-based price monitoring tool that automatically tracks eBay listings for
 - schedule==1.2.2
 - PySocks==1.7.1
 
-## 🛠️ **Installation**
+## **Installation**
 
 ### **1. Clone the repository**
 ```bash
@@ -81,7 +81,7 @@ NOTIFICATION_MESSAGE = '{count} competitors cheaper than you!'
 NOTIFICATION_TIMEOUT = 10
 ```
 
-## 🎮 **Usage**
+## **Usage**
 
 ### **Run Once (Default, async under the hood)**
 ```bash
@@ -139,10 +139,10 @@ Enable the built-in daemon mode for continuous monitoring:
 3. The daemon runs continuously until stopped with `Ctrl+C`
 
 **Benefits:**
-- ✅ **No external setup** - works out of the box
-- ✅ **Easy to start/stop** - just run the script
-- ✅ **Configurable timing** - adjust `CHECK_INTERVAL` as needed
-- ✅ **Graceful shutdown** - handles `Ctrl+C` properly
+- **No external setup** - works out of the box
+- **Easy to start/stop** - just run the script
+- **Configurable timing** - adjust `CHECK_INTERVAL` as needed
+- **Graceful shutdown** - handles `Ctrl+C` properly
 
 ### **Option 2: External Schedulers**
 
